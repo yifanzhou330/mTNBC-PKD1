@@ -42,7 +42,7 @@ oncoplot(maf = somatic.maf, annotationColor = colors.ls, colors = vc_cols,
 dev.off()
 
 
-pdf("FigS2C.pdf",height = 8, width = 12)
+pdf("FigS2D.pdf",height = 8, width = 12)
 oncoplot(maf = somatic.maf, annotationColor = colors.ls, colors = vc_cols,
          groupAnnotationBySize = F,
          sortByAnnotation = T,
