@@ -42,7 +42,7 @@ input.pvalue = as.matrix(input.pvalue)
 rownames(input.pvalue) = colnames(input.pvalue)
 
 
-pdf("./Fig2D.pdf")
+pdf("./FigS2B.pdf")
 corrplot(input.data, 
          type = "upper", 
          order="hclust",
@@ -105,7 +105,7 @@ input.pvalue = input.pvalue[,-1]
 input.pvalue = as.matrix(input.pvalue)
 rownames(input.pvalue) = colnames(input.pvalue)
 
-pdf("./FigS2B.pdf")
+pdf("./FigS2C.pdf")
 corrplot(input.data, 
          type = "upper",
          order="hclust",
